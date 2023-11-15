@@ -1,0 +1,13 @@
+<div class="edit-todo-container">
+    <h2>Edit Todo</h2>
+    <div class="edit-todo-form">
+        <label for="">Title</label>
+        <input type="text" [(ngModel)]="currentTodo.title">
+        <label for="">Description</label>
+        <textarea [(ngModel)] = "currentTodo.description"></textarea>
+        <div class="edit-todo-buttons">
+            <button (click)="updateTodo()" class="save">Update</button>
+            <button (click)="cancelEdit()" class="cancel">Cancel</button>
+        </div>
+    </div>
+</div>
