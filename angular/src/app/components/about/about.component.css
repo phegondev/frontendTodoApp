@@ -1,0 +1,11 @@
+/* about.component.css */
+.about-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .about-container h2 {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,38 @@
+/* edit-todo.component.css */
+.edit-todo-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .edit-todo-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-todo-form input,
+  .edit-todo-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .edit-todo-buttons button {
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .edit-todo-buttons button.save {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  
+  .edit-todo-buttons button.cancel {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  
